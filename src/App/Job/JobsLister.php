@@ -2,6 +2,11 @@
 
 declare(strict_types=1);
 
+namespace App\Job;
+
+use Exception;
+use PDO;
+
 final class JobsLister
 {
     private PDO $db;
